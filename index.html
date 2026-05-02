@@ -55,12 +55,15 @@
           var(--bg);
         -webkit-font-smoothing: antialiased;
         text-rendering: optimizeLegibility;
-        overflow-x: hidden;
-        overscroll-behavior-y: none;
+        
+        /* FIXED: Removed overflow-x: hidden and overscroll-behavior-y: none 
+           to restore vertical scrolling and sticky header capabilities */
       }
 
       body {
         min-height: 100svh;
+        /* FIXED: Use clip to prevent horizontal scrollbars without breaking position: sticky */
+        overflow-x: clip; 
       }
 
       a {
@@ -1260,9 +1263,9 @@
                   <img src="https://i.imgur.com/Im3QBfL.jpg" alt="ParallelYou founder and EchoClone standing together" />
                 </div>
                 <div class="hero-main-card">
-                  <div class="hero-main-card-title">New Year founding offer · through January 12</div>
+                  <div class="hero-main-card-title">Current Cohort Application · Limited Capacity</div>
                   <div class="hero-main-card-body">
-                    New Year founder pricing is active for this cohort until January 12. On the next screen you will see the full breakdown for Core and VIP and choose the structure that fits best.
+                    Because of the intensive nature of Identity Extraction™, this container is strictly capped to ensure precision for every leader. On the next screen you will see the full breakdown for Core and VIP and choose the structure that fits best before current spots are filled.
                   </div>
                 </div>
               </div>
@@ -1618,7 +1621,7 @@
                     On the next screen you will confirm your fit, see the full breakdown for Core and VIP, and choose the structure that best matches where you are headed.
                   </p>
                   <p class="final-cta-meta">
-                    Holiday founding pricing for this cohort is active through December 31.
+                    Enrollment for the current cohort closes the moment we reach our strict capacity limit.
                   </p>
                   </div>
 
@@ -1641,7 +1644,7 @@
                 By continuing, you confirm that you are at least 18 years old and that you have read,
                 understood and agree to be bound by our Terms of Service, Privacy Policy, Cookie
                 Policy, Disclaimer, Refund Policy and DMCA Notice, which together form the Universal
-                Legal Suite for Dixie Briseno and all related brands.
+                Legal Suite for Dixie Bellavero and all related brands.
               </div>
               <div class="footer-links">
                 <a data-legal="terms">Terms of Service</a>
@@ -1655,7 +1658,7 @@
 
             <div class="footer-bottom">
               <div>
-                © 2025 Dixie Briseno. All Rights Reserved. ParallelYou™ | Authority Scale™ |
+                © 2026 Dixie Bellavero. All Rights Reserved. ParallelYou™ | Authority Scale™ |
                 EchoClone™ | SelfOS™
               </div>
               <div class="footer-contact">
@@ -1696,7 +1699,7 @@
         </p>
         <p>
           <strong>
-            New Year founder pricing is active through January 12. After that, enrollment reopens at standard founder cohort investment.
+            Enrollment for the current cohort closes the moment we reach our strict capacity limit.
           </strong>
         </p>
         <p class="exit-meta">
@@ -1725,9 +1728,9 @@
           </button>
         </div>
         <div class="legal-body" id="legal-body">
-          <h4>Universal Legal Suite for Dixie Briseno and all related brands</h4>
+          <h4>Universal Legal Suite for Dixie Bellavero and all related brands</h4>
           <p>
-            Applies to: Dixie Briseno, ParallelYou™, Authority Scale™, EchoClone™, SelfOS™, The
+            Applies to: Dixie Bellavero, ParallelYou™, Authority Scale™, EchoClone™, SelfOS™, The
             Scaling Socialite, RevenueHaus® and The Sovereign Société™ along with any present or
             future entities under her ownership.
           </p>
@@ -1776,7 +1779,7 @@
           <h4>6. DMCA Notice</h4>
           <p>
             If you believe your copyrighted work has been infringed by any brand owned by Dixie
-            Briseno, please send a written DMCA notice to our DMCA Agent at
+            Bellavero, please send a written DMCA notice to our DMCA Agent at
             <strong>weare@authorityscale.com</strong>
             with the subject line:
             <strong>DMCA NOTICE - COPYRIGHT INFRINGEMENT</strong>. Include your legal name, a
